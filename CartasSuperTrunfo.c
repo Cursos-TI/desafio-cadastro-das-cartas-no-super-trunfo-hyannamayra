@@ -14,15 +14,11 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     // Declaração de variáveis para a primeira carta
-    char estado1[3];  
-    char codigo1[4];
-    char nomeCidade1[50];
-    int populacao1;
-    float area1;
-    float pib1;
-    int pontosTuristicos1;
-    double pC1, dP1;
-
+    char estado1[3], estado2[3], nomeCidade1[50], nomeCidade2[50], codigo1[4], codigo2[4];  
+    int populacao1, populacao2, pontosTuristicos1, pontosTuristicos2;
+    float area1, area2, pib1, pib2;
+    double pC1, dP1, pC2, dP2;
+    
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
@@ -66,16 +62,6 @@ int main() {
      // Cálculo correto do PIB per capita
      pC1 = (pib1 * 1000000000) / populacao1;
 
-    // Declaração de variáveis para a segunda carta 02
-    char estado2[3];
-    char codigo2[4];
-    char nomeCidade2[50];
-    int populacao2;
-    float area2;
-    float pib2;
-    int pontosTuristicos2;
-    double pC2, dP2;
-    
     // Entrada de dados da segunda carta
     printf("\nCadastro da Carta 2\n");
     
@@ -124,6 +110,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
     printf("Densidade Populacional: %.2f hab/km²\n", dP1);
     printf("PIB per Capita: %.2f reais\n", pC1);
+    
     
     printf("\nCarta 2:\n");
     printf("Estado: %s\n", estado2);
