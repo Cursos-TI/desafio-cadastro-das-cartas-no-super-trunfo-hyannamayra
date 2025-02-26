@@ -66,7 +66,7 @@ int main() {
      // Cálculo correto do PIB per capita
      pC = (pib1 * 1000000000) / populacao1;
 
-    // Declaração de variáveis para a segunda carta
+    // Declaração de variáveis para a segunda carta 02
     char estado2[3];
     char codigo2[4];
     char nomeCidade2[50];
